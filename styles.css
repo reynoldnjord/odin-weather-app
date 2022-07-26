@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #b19cd9;
+}
+
+body > div{
+    margin-top: 5rem;
+    text-align: center;
+    width: 50%;
+    height: auto;
+    border: 3px solid purple;
+    padding: 1rem;
+    background-color: plum;
+    box-shadow: -1px 0 .4em black
+}
+
+p.city{
+    font-size: 60px;
+    font-family: 'Roboto', sans-serif;
+}
+
+p.wt{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 30px;
+}
+
+form{
+    margin-top: 2rem;
+}
+
+#city{
+    width: 10rem;
+    font-size: 20px;
+    margin-right: 1rem;
+}
+
+input[type="submit"]{
+    font-size: 20px;
+}
+
+div>div{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 3rem;
+}

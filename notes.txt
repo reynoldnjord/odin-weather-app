@@ -1,0 +1,5 @@
+weather description: weatherJson.list[2].weather[0].description
+city name: weatherJson.city.name
+wind speed: weatherJson.list[2].wind.speed
+temp: weatherJson.list[2].main.temp
+feels-like: weatherJson.list[2].main.feels_like
